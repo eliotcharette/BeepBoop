@@ -5,11 +5,12 @@ var beepboop = function (input) {
   }
   var number1 = [];
   var num = [1];
-  var position = num.indexOf(input[0]); //-1
+  //var position = num.indexOf(input[0]); //-1
 
   for (var i = 1; i <= input; i++){
     number1.push(i);
   };
+
 
   //replaces all divisibles of 3 with "I'm sorry, Dave I'm afraid I can't do that."
  for (var i = 1; i < number1.length; i++){
@@ -31,11 +32,18 @@ for (var i = 1; i < number1.length; i++){
 
 // replaces all numbers that begin with 1 with Boop
 
-for (var i = 1; i < number1.length; i++){
-  if(position > -1){
-    number1[i] = ("Boop!")
+/*for (var i = 1; i < number1.length; i++){
+  if(num.indexOf(number1[i]) > -1){
+    var slice_point = i;
   }
 }
+alert(slice_point);
+*/
+/*for (var i = 1; i < number1.length; i++){
+  if(num.indexOf(number1[i]) > -1){
+    number1[i] = ("Boop!")
+  }
+}*/
 /*for (var i = 1; i < number1.length; i++){
   if(number1.indexOf("1") = 0){
     number1[i] = ("Boop!")
