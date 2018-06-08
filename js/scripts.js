@@ -15,6 +15,7 @@ var beepboop = function (input) {
      number1[i] = ("I'm sorry, Dave I'm afraid I can't do that.");
    }
  }
+ for (var i = )
 
 for (var i = 1; i < number1.length; i++){
   if(number1[i] % 10 === 0){
