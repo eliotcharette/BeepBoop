@@ -28,9 +28,20 @@ for (var i = 1; i < number1.length; i++){
   }
 }
 
-// replaces all numbers that begin with 1 or 0 with beep or Boop
+// replaces all numbers that begin with 1 with Boop
+
+for (var i = 1; i < number1.length; i++){
+  if(number1.indexOf("1") = 0){
+    number1[i] = ("Boop!")
+  }
+}
 
 
+/*for (var i = 1; i < number1.length; i++){
+  if(number1[i].startsWith(1)){
+    number1[i] = ("Boop!")
+  }
+}*/
 
 var total = number1;
 
