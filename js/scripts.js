@@ -4,7 +4,8 @@ var beepboop = function (input) {
     return "Please enter a positive number.";
   }
   var number1 = [];
-
+  var num = [1];
+  var position = num.indexOf(input[0]); //-1
 
   for (var i = 1; i <= input; i++){
     number1.push(i);
@@ -31,10 +32,16 @@ for (var i = 1; i < number1.length; i++){
 // replaces all numbers that begin with 1 with Boop
 
 for (var i = 1; i < number1.length; i++){
-  if(number1.indexOf("1") = 0){
+  if(position > -1){
     number1[i] = ("Boop!")
   }
 }
+/*for (var i = 1; i < number1.length; i++){
+  if(number1.indexOf("1") = 0){
+    number1[i] = ("Boop!")
+  }
+}*/
+
 
 
 /*for (var i = 1; i < number1.length; i++){
