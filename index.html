@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Beep Boop Converter</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Beep Boop Converter</h1>
-      <h3>This web app will modify an array of numbers starting with 0 and ending with the number you enter in the 3 following ways:</h3>
-      <ol>
-        <li>Replacing any number containing 0 with <strong>"Beep!"</strong></li>
-        <li>Replacing any number containing 1 with <strong>"Boop!"</strong></li>
-        <li>Replacing any number divisible by 3 with <i>"I'm sorry, Dave I'm afraid I can't do that."</i></li>
-      </ol>
-      <p><strong>Note:</strong> <i>These commands are in order of importance, so a number divisble by 3 that also contains a 0 will ignore the 0 command and just perform the divisible by 3 command.</i></p>
-      <form id="number">
-        <div class="from-group">
-          <label for="number">Enter a positive number:</label>
-          <input id="number" type="text"></input>
-        </div>
-        <button type="submit" class="btn btn-info">See the magic!</button>
-      </form>
-      <div class="result"></div>
-    </div>
-  </body>
+<head>
+  <title>Beep Boop Converter</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Beep Boop Converter</h1>
+    <h3>This web app will modify an array of numbers starting with 0 and ending with the number you enter in the 3 following ways:</h3>
+    <ol>
+      <li>Replacing any number containing 0 with <strong>"Beep!"</strong></li>
+      <li>Replacing any number containing 1 with <strong>"Boop!"</strong></li>
+      <li>Replacing any number divisible by 3 with <i>"I'm sorry, Dave I'm afraid I can't do that."</i></li>
+    </ol>
+    <p><strong>Note:</strong> <i>These commands are in order of importance, so a number divisble by 3 that also contains a 0 will ignore the 0 command and just perform the divisible by 3 command.</i></p>
+    <form id="number">
+      <div class="from-group">
+        <label for="number">Enter a positive number:</label>
+        <input id="number" type="text"></input>
+      </div>
+      <button type="submit" class="btn btn-info">See the magic!</button>
+    </form>
+    <div class="result"></div>
+  </div>
+</body>
 </html>
