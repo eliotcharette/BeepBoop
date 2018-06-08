@@ -37,7 +37,9 @@ number1[i] = ("Boop!");
 }
 }
 */
-/*for (var i = 1; i < number1.length; i++){
+/*
+var num = [1];
+for (var i = 1; i < number1.length; i++){
 if(num.indexOf(number1[i]) > -1){
 var slice_point = i;
 }
